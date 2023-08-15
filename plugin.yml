@@ -1,0 +1,47 @@
+name: CrystalAbosh
+api: 3.0.0
+version: 0.1-Beta
+author: abosh
+main: eggwars\EggWars
+description: Ported eggwars plugin to CrystalAbosh plugin by abosh
+load: POSTWORLD
+
+permissions:
+  cw.cmd:
+    description: CrystalAbosh Commands
+    default: op
+    children:
+      cw.cmd.vote:
+        default: true
+        description: Permission for /vote
+      cw.cmd.team:
+        default: true
+        description: Permission for /team
+      cw.cmd.help:
+        default: op
+        description: Permission to /ew help
+      cw.cmd.create:
+        default: op
+        description: Permission to /ew create
+      cw.cmd.arenas:
+        default: op
+        description: Permission to /ew arenas
+      cw.cmd.set:
+        default: op
+        description: Permission to /ew set
+      cw.cmd.info:
+        default: true
+        description: Permission to /ew info
+      cw.cmd.shop:
+        default: true
+        description: Permission to /ew shop
+      cw.cmd.level:
+        default: op
+        description: Permissions for level commands
+        children:
+          cw.cmd.level.add:
+            default: op
+            description: Permission to /ew level add
+          cw.cmd.level.set:
+            default: op
+            description: Permission to /ew level set
