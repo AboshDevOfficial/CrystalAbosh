@@ -1,6 +1,6 @@
 name: CrystalAbosh
-api: 3.0.0
-version: 0.1-Beta
+api: 5.0.0
+version: 0.1-abosh
 author: abosh
 main: eggwars\EggWars
 description: Ported eggwars plugin to CrystalAbosh plugin by abosh
